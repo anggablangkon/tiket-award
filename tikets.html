@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/tiket.css">
+  <style>
+      @page { size: 58mm 100mm } /* output size */
+      body.receipt .sheet { width: 80mm; height: 60mm } /* sheet size */
+      @media print { body.receipt { width: 80mm } } /* fix for Chrome */
+    </style>
+</head>
+<body class="receipt">
+<div class="cardWrap">
+  <div class="card cardLeft">
+    <img src="img/Berl-award.png" style="width: 150px; height: 70px">
+    <!-- <h1>Berl <span>Award</span></h1> -->
+    <div class="title">
+      <h2>c2m001</h2>
+      <!-- <span></span> -->
+    </div>
+    <div class="name">
+      <h2>Berl Award 2020</h2>
+    </div>
+    <div class="seat">
+      <h2>A/n nama</h2>
+    </div>
+    <h5>www.berlcosmetics.com</h5>
+  </div>
+  <div class="card cardRight">
+    <!-- <center><img src="img/berl-logo.png" style="width: 20px; height: 20px;"></center> -->
+      <table>
+        <tr>
+          <!-- <td>
+            <center><h4><img src="img/Berl-award.png" style="width: 100px; height: 100px"></h4></center>
+          </td> -->
+          <td class="number rotation">
+            <span style="letter-spacing: 20px;padding-bottom: 100px;"><h1>C2m001</h1></span>
+          </td>
+        </tr>
+      </table>
+  </div>
+
+</div>
+
+</body>
+</html>
